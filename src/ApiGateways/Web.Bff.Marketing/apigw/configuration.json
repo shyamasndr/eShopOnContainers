@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "marketing.api",
-          "Port": 80
+            "Host": "localhost",
+            "Port": 5110
         }
       ],
       "UpstreamPathTemplate": "/api/{version}/m/{everything}",
@@ -17,8 +17,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "locations.api",
-          "Port": 80
+            "Host": "localhost",
+            "Port": 5109
         }
       ],
       "UpstreamPathTemplate": "/api/{version}/l/{everything}",

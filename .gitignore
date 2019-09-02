@@ -280,3 +280,5 @@ pub/
 src/**/app.yaml
 src/**/inf.yaml
 
+/src/ApiGateways/Web.Bff.Shopping/apigw/shgw
+/src/ApiGateways/Web.Bff.Marketing/apigw/mkgw

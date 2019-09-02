@@ -27,9 +27,6 @@
     <Content Remove="Setup\Catalogitems - Copy.zip" />
     <None Remove="Setup\Catalogitems - Copy.zip" />
     <Compile Include="IntegrationEvents\EventHandling\AnyFutureIntegrationEventHandler.cs.txt" />
-    <Content Update="web.config;">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
   </ItemGroup>
 
 
